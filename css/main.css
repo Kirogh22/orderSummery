@@ -1,0 +1,113 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsl(224.52deg 100% 93.92%);
+    height: 800px;
+}
+
+@media (max-width: 767px){
+    body {
+        background-image: url(../images/pattern-background-mobile.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: hsl(224.52deg 100% 93.92%);
+    }
+}
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 438px;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: white;
+    margin: 50px;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+    .main {
+        width: 370px;
+        margin: auto;
+    }
+
+    .main .image {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.main h1 {
+    font-weight: 900;
+    padding: 10px;
+}
+
+.main .first {
+    padding: 10px 41px;
+    line-height: 1.8;
+    color: gray;
+}
+
+.main .plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    background-color: hsl(230deg 29.47% 95.74%);
+    margin: auto;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+@media (max-width: 767px){
+
+    .main .plan {
+        width: 284px;
+    }
+}
+.main .plan img {
+    padding-right: 20px;   
+}
+.main .plan .text{
+    padding-right: 30px;
+}
+.main .plan .text h2 {
+    margin: 24px 0 0;
+    font-size: 20px;
+}
+
+.main .plan .text p {
+    color: gray;
+    margin: 0 0 10px;
+}
+
+.main .plan a {
+    color: blue;
+    font-weight: bold;
+}
+
+.main .Payment {
+
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    background-color: #382ae1;
+    margin: 20px 44px;
+    overflow: hidden;
+    color: white;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 900;
+
+}
+
+.main .cancel {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
