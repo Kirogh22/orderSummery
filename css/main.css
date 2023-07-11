@@ -1,7 +1,7 @@
 body {
     font-family: 'Red Hat Display', sans-serif;
     background-image: url(../images/pattern-background-desktop.svg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-color: hsl(224.52deg 100% 93.92%);
     height: 800px;
@@ -10,9 +10,10 @@ body {
 @media (max-width: 767px){
     body {
         background-image: url(../images/pattern-background-mobile.svg);
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         background-color: hsl(224.52deg 100% 93.92%);
+        
     }
 }
 .main {
